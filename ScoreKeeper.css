@@ -1,0 +1,44 @@
+.scoreboard {
+text-align: center;
+}
+
+.rules {
+text-align: center;
+}
+
+.score {
+text-align: center;
+}
+
+a {
+  color: rgba(0,0,0,0.9);
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+body{
+  background-color: #4d7cff;
+  font-size: 2rem;
+}
+
+h1 {
+  padding-top: 15%;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 150px;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+.scoreP1, .scoreP2, .scoreboard {
+  font-size: 5rem;
+}
