@@ -17,7 +17,7 @@ a {
 }
 
 body{
-  background-color: #4d7cff;
+  background-color: rgba(36, 112, 42, 0.712);
   font-size: 2rem;
 }
 
@@ -29,6 +29,8 @@ input {
   display: block;
   margin: 10px auto;
   width: 150px;
+  border-radius: 4px;
+  border: 2px solid black;
 }
 
 .winner {
@@ -41,4 +43,13 @@ input {
 
 .scoreP1, .scoreP2, .scoreboard {
   font-size: 5rem;
+}
+
+.scorePlayer1, .scorePlayer2, .resetButton {
+  border-radius: 4px;
+  border: none;
+  opacity: 0.7;
+}
+.scorePlayer1:hover, .scorePlayer2:hover, .resetButton:hover {
+  opacity: 1;
 }
